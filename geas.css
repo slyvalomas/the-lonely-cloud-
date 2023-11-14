@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Italianno&family=Kenia&family=Libre+Baskerville&display=swap');
+body{
+    
+    background:linear-gradient(to top, rgb(51, 197, 255) , rgb(169, 221, 245));
+    position: relative;
+    margin: 0;
+
+}
+.cloud{
+    min-height: 10rem;
+    background-image: url(../vega/aT7LU6-clouds.png);
+    background-size: 15rem;
+    background-position: center 1rem;
+    background-repeat: no-repeat;
+}
+.tree{    
+    min-height: 25rem;
+    background-image: url(../vega/tree.png);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 0;
+    z-index: 1;
+
+}
+h1{
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 25px;
+    min-height: 25rem;
+    text-align: center;
+    background-image: url(../vega/clouds.png);
+    background-position: center -80px;
+    background-repeat: no-repeat;
+    background-size: 200px ;
+    -webkit-background-clip:text;
+    background-clip: text;
+    color:rgba(0, 0, 0, 0.182);
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Italianno', cursive;
+    font-family: 'Kenia', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.388);
+}
+.clouds{
+    padding-top: 25rem;
+    min-height: 25rem;
+    background-image: url(../vega/image-from-rawpixel-id-12079908-original.png);
+    background-size: 20rem;
+    background-repeat: no-repeat;
+    background-position: center ;
+    position:sticky;
+    top:  -5rem;
+    bottom: 0;
+}
